@@ -1,0 +1,69 @@
+<!--   Webpages with Looping      
+Make a web page that lists out your favorite ice cream flavors. Rather than writing the flavors in the HTML, use a JavaScript loop to insert the flavors into the page from an array. -->
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Looping Practice</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Name your favorite ice cream flavors</h1>
+    <div>
+      <form id="formOne">
+        <ol>
+          <div class="form-group">
+
+            <li>
+              <input id="flavor1" class="form-control" type="text">
+             </li> 
+          </div>
+        
+
+          <div class="form-group">
+            <li>
+              <input id="flavor2" class="form-control" type="text">
+             </li> 
+          </div>
+
+          <div class="form-group">
+            <li>
+              <input id="flavor3" class="form-control" type="text">
+             </li> 
+          </div>
+
+          <div class="form-group">
+            <li>
+              <input id="flavor4" class="form-control" type="text">
+             </li> 
+          </div>
+
+          <div class="form-group">
+            <li>
+              <input id="flavor5" class="form-control" type="text">
+             </li> 
+          </div>
+
+        <button type="submit" class="btn">Show me the results!</button>
+      </form>
+    </div>
+
+    <div id="story">
+      <h1>OOOH! Look at all the tasty flavors:</h1>
+      <p>
+        <span class="flavor1"></span> 
+        <span class="flavor2"></span> 
+        <span class="flavor3"></span> 
+        <span class="flavor4"></span>
+        <span class="flavor5"></span> 
+        
+      </p>
+    </div>
+  </div>
+</body>
+</html>
